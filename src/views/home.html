@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+
+{% set pageId = "page-home" %}
+
+{% block title %}
+    <title>Home</title>
+{% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/home.css" class="css">
+{% endblock styles %}
+
+{% block content %}
+
+
+
+    <h5></h5>
+    <header>
+        
+        <h1>CAREN</h1>
+        <h3>Cuidando da sua sáude</h3>
+        <h2>Nome do usuario</h2>
+        <li1></li1>
+        <li2></li2>
+        <li3></li3>
+        <a href="home-menu"><h4></h4></a>
+        <retangle2></retangle2>
+        <retangle></retangle>
+    </header>
+
+     <div class="itens-grid">
+                <li data-id="agenda">
+
+                    <img src="icones/timer.svg" alt="agenda">
+                    <span>AGENDA</span>
+
+                </li>
+
+                <li data-id="carem">
+
+                    <img src="icones/lego 1.svg" alt="carem">
+                    <span>CAREM</span>
+
+                </li>
+
+                <li data-id="evolução">
+
+                    <img src="icones/seed.svg" alt="evolução">
+                    <span>EVOLUÇÃO</span>
+
+                </li>
+
+    <retangle3></retangle3>
+    
+
+{% endblock content %}
+
+
+
+ {% block scripts %}
+        <script src="scripts/index.js"></script>
+{% endblock scripts %}

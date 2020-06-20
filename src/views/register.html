@@ -1,0 +1,86 @@
+{% extends "layout.html" %}
+
+{% set pageId = "page-register" %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/register.css" class="css">
+{% endblock styles %}
+
+{% block title %}
+    <title>Cadastro de Usuario</title>
+{% endblock title %}
+
+{% block content %}
+
+    
+        <h1>CAREM</h1>
+        <h2>Cuidando da sua saúde</h2>
+
+    <form action="/savepoint" method="POST">
+
+     <fieldset>
+            <div class="field">
+                <input type="text" name="name" placeholder="Nome"required="required">
+                <li></li>
+            </div>
+
+            <div class="field">
+                <input type="text" name="Date" placeholder="Data Nasc" required="required">
+                <li></li>
+            </div>
+         
+                <div class="field">
+                    <input type="text" name="email" placeholder="E-mail" required="required">
+                    <li></li>
+                </div>
+                <div class="field">
+                    <input type="text" name="number" placeholder="DDD + Número" required="required">
+                    <li></li>
+                </div>
+
+                <div class="field">
+                    <select name="sex" id="" placeholder="Sexo" >
+                        <option value="">Selecione o sexo</option>
+                        
+                    </select>
+                    <li></li>
+                </div>
+                <div class="field">
+                    <select name="uf" id="" placeholder="Estado" required="required">
+                        <option value=""><h1>Selecione o Estado</h1></option>
+                        
+                    </select>
+                    <li></li>
+                    <input type="hidden" name="state">
+                </div>
+                <div class="field">
+                    <select name="city" disabled="disabled" required="required">
+                        <option value="">Selecione a Cidade</option>
+                        
+                    </select>
+                    <li></li>
+                </div>
+            
+               
+
+        </fieldset>
+
+
+
+        <button type="submit"></button>
+
+    </form>
+
+
+
+    
+
+{% endblock content %}
+
+
+{% block scripts %}
+    <script src="scripts/refister.js"></script>
+{% endblock scripts %}
+
+</body>
+</html>

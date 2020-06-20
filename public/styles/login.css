@@ -1,0 +1,102 @@
+#page-login {
+    
+    height: 100vh;
+
+}
+
+#page-login .content {
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#page-login header {
+
+    margin-top: 48px;
+    margin-bottom: 24px;
+    align-items: center;
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+#page-login header h1 {
+
+    position: absolute;
+    width: 230px;
+    height: 62px;
+    left: calc(50% - 230px/2 - 0.5px);
+    top: (105px);
+    font-family: Montserrat;
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 78px;
+
+}
+
+
+#page-login main {
+
+    align-items: center;
+    max-width: 560px;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+
+}
+
+#page-login main h2 {
+
+    position: absolute;
+    width: 285px;
+    height: 30px;
+    left: calc(50% - 285px/2);
+    top: 120px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+
+
+
+#page-login main a p {
+
+    position: absolute;
+    width: 233px;
+    height: 60px;
+    left: calc(50% - 233px/2 + 9px);
+    top: 200px;
+    background-image: url(../icones/Component\ 3.svg);
+
+}
+
+#page-login main a strong {
+
+    position: absolute;
+    width: 233px;
+    height: 50px;
+    left: calc(50% - 233px/2 + 9px);
+    top: 490px;
+    background-image: url("../icones/Component 2.svg");
+
+
+}
